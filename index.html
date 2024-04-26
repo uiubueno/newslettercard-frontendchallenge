@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Newsletter Card Component - FrontendPro Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aumente o nível de suas habilidades de front-end!</h1>
+      <p>
+        Inscreva-se em nosso boletim informativo gratuito para receber desafios
+        semanais de codificação que o ajudarão a melhorar suas habilidades de
+        desenvolvimento de front-end. =)
+      </p>
+      <form id="newsletter-form">
+        <input
+          type="email"
+          placeholder="Digite seu endereço de email"
+          required
+        />
+        <button type="submit">Inscreva-se</button>
+        <br />
+        <label for="newsletter-checkbox">
+          <input type="checkbox" id="newsletter-checkbox" />
+          Ao marcar a caixa, você concorda em receber nossas notícias semanais
+          contendo desafios de codificação, dicas e outros conteúdos
+          relacionados, podendo cancelar a assinatura das notícias a qualquer
+          momento.
+        </label>
+      </form>
+      <p id="success-message"></p>
+      <p id="error-message"></p>
+    </div>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
