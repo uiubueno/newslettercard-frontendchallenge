@@ -16,7 +16,7 @@ Em sequência do primeiro projeto, neste arquivo, estou reunindo informações e
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final em funcionamento](https://portfolio-william-bueno.vercel.app/)
+[Veja o projeto final em funcionamento](https://newslettercard-frontendchallenge.vercel.app/)
 
 ## 📚 Considerações:
 
